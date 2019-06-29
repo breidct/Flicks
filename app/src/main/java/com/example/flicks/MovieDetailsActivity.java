@@ -86,5 +86,10 @@ public class MovieDetailsActivity extends AppCompatActivity{
         startActivity(i);
     }
 
+    public void onClickz(View view){
+        //Intent i = new Intent(MovieDetailsActivity.this, MainActivity.class);
+        //startActivity(i);
+        finish();
+    }
 
 }
